@@ -1,0 +1,60 @@
+        html {
+        font-family: 'Pretendard-Regular';
+        src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-weight: 400;
+        font-style: normal;
+        }
+        header{margin: auto; margin: 20px 0 200px 0; display: flex; 
+        justify-content: space-between; background: black;
+        align-items: center;}
+        body,h1,h2,h3,p,footer{margin: 0;padding: 0; word-break: keep-all;}
+        h3{padding-top: 200px;}
+        section{background: white;}
+        p{padding-top: 20px; font-weight: 300; line-height: 30px; font-size: 1.2rem;}
+        .wrap{width: 1200px; margin: auto;position: relative;}
+        .menu{margin: 0px; padding: 0px; display: flex; justify-content: space-between;}
+        .menu li{list-style: none;text-align: center;}
+        .menu li a{padding: 10px 10px;display: block; background: black;
+                font-family: 'Pretendard-Regular';
+                src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+                font-weight: 400;
+                font-style: normal;
+                font-size: 1.2rem;
+                text-decoration: none;
+                color: white;}
+        .floating-image{
+                 animation: floatingAnimation 3s ease-in-out infinite alternate;}
+        @keyframes floatingAnimation {
+        from {transform: translateY(-20px);}to {transform: translateY(20px);}}
+        .bgbl{background-color: black; color: white;}
+        .upspc{padding-top: 200px;}
+        .downspc{padding-bottom: 200px;}
+        .stick1{position: relative; left: 300px; top: -100px;}
+        .fixed{background-image: url('../img/뉴런.gif');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;}
+        .flex{display: flex; gap: 20%;}
+        .flex2{display: flex; gap: 5%;}
+        .flexitem{width: 50%;}
+        .fleximg{height: 400px;}
+        .section-with-bg {
+        background-image: url('../img/청소기.jpg');
+        background-size: cover;
+        position: relative;}
+        .section-with-bg::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;}
+
+        .img1{background: url("../img/청소기 흡입구.png");background-size: cover;}
+        .img2{background: url("../img/청소기 합성구.png");background-size: cover;}
+        .img3{background: url("../img/청소기 분출구.png");background-size: cover;}
+        .img4{background: url("../img/brain.png");background-size: 300px;}
+
+        .gsst{font-size: 30px; padding-top: 100px;}
